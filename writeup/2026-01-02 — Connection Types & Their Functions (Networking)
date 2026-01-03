@@ -1,0 +1,28 @@
+2026-01-02 — Connection Types & Their Functions (Networking) fundamentals
+
+Topic: Connection Types & Their Functions (Networking)
+Resource (video): https://www.youtube.com/watch?v=VwN91x5i25g
+TryHackMe room: Intro to Cyber Security — https://tryhackme.com/room/intro-to-cyber-security  
+Duration: 2 hours
+
+Objective
+Brief:Computer networking: A set of nodes connected by communication links.
+
+
+Environment / Tools
+- Browser, TryHackMe AttackBox
+- Commands used: (none for this theoretical session)
+
+Notes / Steps
+- Nodes: A device (computer, printer etc) capable of sending and recieving data from other nodes in the network.
+Communication Links (Wired or Not wired) : Carries information between nodes connected together
+End Devices: PC, Printer, Server, Tablet, Smart Phone
+Intermediarry devices: Router, wireless router, cell tower, modem, internet cloud.
+
+Screenshots
+- Find in "Assets 2026-01-02.png
+
+
+
+Lessons Learned & Next Steps
+- What to study next (e.g., "Tomorrow: Linux fundamentals")
