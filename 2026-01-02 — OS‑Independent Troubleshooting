@@ -1,0 +1,85 @@
+2026-01-02 — OS‑Independent Troubleshooting
+
+Topic: OS‑Independent Troubleshooting
+Resource (video): https://www.youtube.com/watch?v=PC5V8_UBX8w  
+TryHackMe room: Intro to Cyber Security — https://tryhackme.com/room/intro-to-cyber-security  
+Duration: 2 hours
+
+Objective
+Brief: Independent troubleshooting of windows
+In case of Blue Screen of death (BSOD):Causes; Bad Hardware, Bad Drivers, Bad Application.
+
+Resolution: 
+
+Use last known good login, Use system Restore back to previous configuration,or if you just installed a driver then you should try rolling back to the previous version.
+Remove hardware recently installed to check for resolution. 
+
+Check task manager: For high CPU usage and I/O.
+Check windows Update.
+
+Antivirus Scan.
+
+In cases of an "Oerating system not found" : Possible cause; Multible OS intsalled.
+The boot loader has probably not launched the propper Os.
+Check all boot drive correction, Remove USbB devices.
+Manually reconfigue your system through the windows boot configuration Database (BCD). Found the recovery console.
+In the recovery console, run the command; bootre/rebuildbcd.
+This rebuilds the boot configuration database and the next time the system boots, it will use the new DB to find the proper windows partition.
+
+Incase of a missing NTLDR (when the proper bootloader is missing);
+Run startup repair / manually replace manually and reboot.
+Disconnect removable media. (USB, etc)
+
+Missing operating system (Boot Configuration Data may be incorrect);
+Run Startup repair
+manually configure BCD store.
+
+Boot to safe mode (Windows not starting normally): Run startup repair.
+
+Device not starting:
+Check device manager and event viewer
+Often a bad driver(Replace or remove driver)
+
+One or more windows services failing to start:
+Start service manually from service optoon
+Check service permission
+Check service dependencies
+Check system files incase of windows services
+For application service: Reinstall application.
+
+When an application malfunctions or disappers, (Eg. Internet explorer has stopped working)
+
+Check event logs
+Check reliability monitor (History of application problems, helps with resolution) Go to control panel-All control panel items-Security and maintenance-reliability monitor.
+Re-install or install a latest version.
+
+Incase of low memory:
+Closing apps using a lot of memory (View from memory tab)
+Increase virtual memory (from task manager, move to the memory tab)
+(how to access the memory tab: System, About, Advanced system setting, performance, setting, virtual memory...you can change it to be automatically set or change it to the actual memory to be used.)
+
+If USB contains buffers called endpoints( USB controllers have different endpoints, ranging from 96-254, etc):
+Or if notification says "Controller does not have enough resources for this device;
+1. Move device to a different USB interface. (USB 2.0 supports larger number of endpoints.
+2. Match USB interface to device capabilities. Eg. USB 2.X to USB 2.X interface.
+
+General system failures:
+Full system diagnostics ( Check hardwares, softwares,)
+Check operating system
+Run Anti-malware scan
+Analysis on imported system files.
+
+Drifting computer Clock:
+Enable automatic time setting (settings, time and language, update time, set time automatically. 
+
+
+
+Environment / Tools
+- Browser, TryHackMe AttackBox
+- Commands used:
+
+Screenshots
+- See "Assets"
+
+Lessons Learned & Next Steps
+-Popular Tool Suites Basics 
