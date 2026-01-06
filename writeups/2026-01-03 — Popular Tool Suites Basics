@@ -1,4 +1,4 @@
-2026-01-03 — Popular Tool Suites Basics
+2026-01-03 — Popular Tool Suites Basics +Web Application Security
 Topic: Popular Tool Suites Basics
 Resource (video): https://www.youtube.com/watch?v=LmKUxgSIADU 
 TryHackMe room: Intro to Cyber Security — https://tryhackme.com/room/intro-to-cyber-security  
@@ -6,6 +6,53 @@ Duration: 2 hours
 
 Objective
 Brief: Introduction to all microsoft apps in the suits. Eg. Power Apps, Photos, Family safety, etc.
+
+Web Application Security:
+Modern standard web browser: Firefox, Safari, or Chrome.
+
+examples of web applications:
+
+Webmail such as Tutanota, Protonmail, Outlook, and Gmail
+Online office suites such as Microsoft Office 365 (Word, Excel, and PowerPoint), Google Drive (Docs, Sheets, and Slides), and Zoho Office (Writer, Sheet, and Show)
+Online shopping such as Amazon.com, AliExpress, and Etsy
+Other examples include online banking, money transfer, weather forecast, and social media.
+
+Web application: a program running on a remote server. 
+A server:  a computer system running continuously to “serve” the clients. In this case, the server will run a specific type of program that can be accessed by web browsers.
+A database is used to store information in an organized way.
+A database server is responsible for many functions, including reading, searching, and writing to the database.
+Encryption refers to making the data unreadable without knowing the secret key or password.
+Identification refers to the ability to identify a user uniquely
+Authentication refers to the ability to prove that the user is whom they claim to be.
+
+brute force, i.e., try many passwords, usually using automated tools, to find valid login credentials.
+Access control ensures that each user can only access files (documents, images, etc.) related to their role or work.
+
+Vulnerabilities related to access control include:
+
+Broken access control:
+Failing to apply the principle of the least privilege and giving users more access permissions than they need.
+
+Identification & Authentication Failure:
+Being able to view or modify someone else’s account by using its unique identifier. For example, you don’t want one bank client to be able to view the transactions of another client.
+Being able to browse pages that require authentication (logging in) as an unauthenticated user.
+
+Injection Attack
+An injection attack refers to a vulnerability in the web application where the user can insert malicious code as part of their input.One cause of this vulnerability is the lack of proper validation and sanitization of the user’s input.
+
+Cryptography:
+Cryptography focuses on the processes of encryption and decryption of data
+Encryption scrambles cleartext into ciphertext, which should be gibberish to anyone who does not have the secret key to decrypt it.
+Decryption converts the ciphertext back into the original cleartext using the secret key.
+
+cryptographic failures include:
+Sending sensitive data in clear text, for example, using HTTP instead of HTTPS. HTTP is the protocol used to access the web, while HTTPS is the secure version of HTTP. Others can read everything you send over HTTP, but not HTTPS.
+Relying on a weak cryptographic algorithm. One old cryptographic algorithm is to shift each letter by one. For instance, “TRY HACK ME” becomes “USZ IBDL NF.” This cryptographic algorithm is trivial to break.
+Using default or weak keys for cryptographic functions. It won’t be challenging to break the encryption that used 1234 as the secret key.
+
+
+
+
 
 Next Steps
 What to study next: Basics of Computer Networking 2.
