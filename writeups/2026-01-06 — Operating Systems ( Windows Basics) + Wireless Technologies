@@ -1,0 +1,92 @@
+2026-01-06 — Operating Systems ( Windows Basics) + Wireless Technologies
+Topic: Operating Systems ( Windows Basics) + Wireless Technologies
+Resource (video):https://www.youtube.com/watch?v=ka7VoWf_aSI&list=PLarzZ7tJk-lFpARjZboFkb0vTV_kLLhN3
+TryHackMe room: Intro to Cyber Security — https://tryhackme.com/room/intro-to-cyber-security  
+Duration: 2 hours
+
+Objective
+Brief: 
+OS - A software that acts as a bridge between the computer hardware and the user applications.
+Manages hadware resources, provides a user interface and enables application execution.
+
+Key Functions of OS
+Hardware Management: Manages computer hardware like the CPU, memroy and Storage.
+
+User Interface: Provides way for user to interact with the computer.
+
+Process Management: Handles multitasksing and runs programs simultaneously.
+
+File Management: Organising, storing , retrieval & manipulating files and folders on the storage devices.
+
+Examples of operating systems:
+
+1. Windows: used in most personal computers and laptops.
+2. macOs: Runs on Apple's hardware
+3. Linux: Open source Os with various distribution like ubuntu and Fedora. ( Linux is like a large family of cars with each having their specifics, eg. Mercedes has G-wagon, GLE, etc. 
+In this case the types of the destribution of the linux is Ubuntu, Fedora, etc.
+4. Android: Powers smartphones, tablets, other mobile devices. 
+
+Batches of Operatings Systems:
+1. Early Operating Systems - Batch processing with minimal user interraction.
+2. Command - Line Interface - User interraction through commands.
+3. Graphical User Interface (GUI) - Comes with visual elements for easier user navigation.
+4. Modern Operating Systems: Supports multitasking, networking, security features, etc.
+
+
+Components of An Os
+
+Kernel- The heart or the core part that communicates between the hardware and software. Handles request back and forrth and makes sure all is running smoothly.
+User Interface - Provides Interraction between users and system (GUI or commands).
+File System: Managing all files, folders and data on storage devices.
+Device Drivers: Software components that facilitate communication between hardware components and the OS.
+Utilities: Tools for copying, editing and scanning files.
+Processes: Runing programs or tasks running on the system.
+Memory management: Tracking memory in the system for efficient use and prevent conflicts between processes.
+Networking: Allows device to connect and share info over networks.
+Security and Access control: Measures to protect system data, includes authentication, authorization, encryption and firewall setting.
+User Management: Manages user accounts and permissions, controlling who can or cannot access the system and what they can do. 
+
+
+Bluetooth:
+A low power wireless technology that uses a short-range radio that provides a way to connect nearby devices to each other.
+For exchanging data.
+Very resistant to interferance as compared to wifi.
+
+NFC:
+Near field Communication. A technology built into modern smartphone, computers electronics that allows
+the transfer of data between devices that are very close to each other without the need for internet connection.
+Found in some smart phones. Can be found in credit cards but in this, they cannot be connected to any devise. 
+
+
+
+
+WiFi:
+
+Wireless technology that uses radiowaves to allow devices to be connected to the internet.
+This is done using a wifi router.
+For connecting devices to the internet.
+Vulnerable to intereference.
+
+
+Environment / Tools
+- Browser, TryHackMe AttackBox
+- Commands used: (none for this theoretical session)
+
+Notes / Steps
+- Confidentiality = ...
+- Integrity = ...
+- Availability = ...
+- Example: Ransomware attacks impact Availability — e.g., sample notes...
+
+Screenshots
+- `assets/2025-12-01-cia-1.png` (screenshot of TryHackMe completion)
+- `assets/2025-12-01-cia-2.png` (if any)
+
+Findings / Key Points
+- 3 bullets summarizing what you learned and one question if any.
+
+Defensive Notes / Remediation
+- For defenders: enable backups and offline copies to protect Availability; use MFA to protect Confidentiality; use checksums/detection for Integrity.
+
+Lessons Learned & Next Steps
+- What to study next (e.g., "Tomorrow: Linux fundamentals")
